@@ -1,0 +1,109 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Registration Form</title>
+  </head>
+  <body>
+    <h2 align="center">Registration Form</h2>
+
+    <form>
+      <table border="1" cellpadding="10" align="center">
+        <tr>
+          <td>Student Name</td>
+          <td>
+            <input type="text" placeholder="First Name" />
+            <input type="text" placeholder="Middle Name" />
+            <input type="text" placeholder="Last Name" />
+          </td>
+        </tr>
+
+        <tr>
+          <td>Father's Name</td>
+          <td><input type="text" placeholder="Enter your father's name" /></td>
+          <td>Mother's Name</td>
+          <td><input type="text" placeholder="Enter your mother's name" /></td>
+        </tr>
+
+        <tr>
+          <td>Date of Birth</td>
+          <td><input type="date" /></td>
+          <td>Gender</td>
+          <td>
+            Male <input type="radio" name="gender" /> Female
+            <input type="radio" name="gender" />
+          </td>
+        </tr>
+
+        <tr>
+          <td>Category</td>
+          <td>
+            <select>
+              <option>Gen</option>
+              <option>OBC</option>
+              <option>SC</option>
+              <option>ST</option>
+            </select>
+          </td>
+          <td>Handicapped</td>
+          <td>
+            Yes <input type="radio" name="handicap" /> No
+            <input type="radio" name="handicap" />
+          </td>
+        </tr>
+
+        <tr>
+          <td>Ex-Serviceman</td>
+          <td>
+            Yes <input type="radio" name="ex" /> No
+            <input type="radio" name="ex" />
+          </td>
+          <td>EWS</td>
+          <td>
+            Yes <input type="radio" name="ews" /> No
+            <input type="radio" name="ews" />
+          </td>
+        </tr>
+
+        <tr>
+          <td>Email ID</td>
+          <td><input type="email" /></td>
+          <td>Mobile No.</td>
+          <td><input type="text" /></td>
+        </tr>
+
+        <tr>
+          <td>State</td>
+          <td>
+            <select>
+              <option>Select any one</option>
+              <option>Bihar</option>
+              <option>UP</option>
+              <option>Delhi</option>
+            </select>
+          </td>
+          <td>City</td>
+          <td>
+            <select>
+              <option>Select any one</option>
+              <option>Patna</option>
+              <option>Lucknow</option>
+            </select>
+          </td>
+        </tr>
+
+        <tr>
+          <td>Upload Photo</td>
+          <td><input type="file" /></td>
+          <td>Upload Signature</td>
+          <td><input type="file" /></td>
+        </tr>
+
+        <tr>
+          <td colspan="4" align="center">
+            <input type="submit" value="Submit" />
+          </td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
