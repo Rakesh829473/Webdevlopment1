@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User Input Form</title>
+</head>
+<body>
+
+<h2>User Input Form</h2>
+
+<form>
+
+    <!-- Personal Particular -->
+    <fieldset>
+        <legend>Personal Particular</legend>
+
+        <label for="name">Name:</label>
+        <input type="text" id="name"><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password"><br><br>
+
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender">
+        <label for="male">Male</label>
+
+        <input type="radio" id="female" name="gender">
+        <label for="female">Female</label>
+        <br><br>
+
+        <label for="age">Age:</label>
+        <select id="age">
+            <option>&lt; 1 year old</option>
+            <option>1-5 years</option>
+            <option>6-10 years</option>
+        </select>
+
+    </fieldset>
+
+    <br>
+
+    <!-- Languages -->
+    <fieldset>
+        <legend>Languages</legend>
+
+        <input type="checkbox" id="java">
+        <label for="java">Java</label>
+
+        <input type="checkbox" id="cpp">
+        <label for="cpp">C/C++</label>
+
+        <input type="checkbox" id="csharp">
+        <label for="csharp">C#</label>
+
+    </fieldset>
+
+    <br>
+
+    <!-- Instruction -->
+    <fieldset>
+        <legend>Instruction</legend>
+
+        <textarea rows="4" cols="40" placeholder="Enter your instruction here..."></textarea>
+
+    </fieldset>
+
+    <br>
+
+    <button type="submit">SEND</button>
+    <button type="reset">CLEAR</button>
+
+</form>
+
+</body>
+</html>
