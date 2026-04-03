@@ -1,0 +1,33 @@
+:root
+{
+    --main-color:rgb(230, 62, 90);
+    --sub-color:blue;
+    --text-color:green;
+}
+
+
+
+
+.login-btn
+{
+    background-color: var(--main-color);
+}
+.register-btn{
+   background-color: var(--sub-color);
+}
+h1{
+    color: var(--main-color);
+}
+h3{
+    color: var(--sub-color);
+}
+
+p{
+    color:  var(--text-color);
+}
+th{
+    background-color: var(--main-color);
+}
+td{
+    color: var(--text-color);
+}

@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@keyframes rakesh
+{
+    
+    0%{
+        top: 0px;
+        left: 0px;
+        background-color: royalblue;
+        
+    }
+    25%{
+        top: 0px;
+        left: 100%;
+        background-color: red;
+    }
+    
+    50%{
+        top: 100%;
+        left: 500px;
+        background-color: greenc;
+        
+    }
+    75%{
+        top: 500px;
+        left: 0px;
+        background-color: orange;
+    }
+    100%{
+        top: 0px;
+        left: 0px;
+        background-color: royalblue;
+        
+    }
+}
+#div1
+{
+    width: 100px;
+    height: 50px;
+    border: 1px solid #000;
+    position: absolute;
+    animation: rakesh 5s linear infinite 2s;
+    border-radius: 50%;
+
+}
+
+}
+/* div1:hover{
+    animation: rakesh 5s linear 2s;
+} */

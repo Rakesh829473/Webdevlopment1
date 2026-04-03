@@ -1,0 +1,13 @@
+#head
+{  
+    color: blue;
+    background-color: aqua;
+    
+}
+#footer
+{
+    margin: 10px;
+    width: 100px;
+    background-color: aqua;
+    border-radius: 20px;
+}

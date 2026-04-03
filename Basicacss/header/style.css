@@ -1,0 +1,287 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* HEADER FIXED */
+.header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: white;
+    z-index: 1000;
+}
+
+/* FLEX CONTAINER */
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 40px;
+}
+
+/* LOGO */
+.logo img {
+    height: 40px;
+}
+
+/* NAV LINKS */
+.nav a {
+    margin: 0 20px;
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+}
+
+/* RIGHT SIDE */
+.right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+/* PHONE */
+.phone {
+    font-size: 20px;
+}
+
+/* BUTTON WITH SHADOW */
+.btn {
+    height: 50px;
+    width: 150px;
+    font-weight: bold;
+    background: #1f5f85;
+    color: #fff;
+    padding: 12px 16px;
+    border-radius: 10px;
+    text-decoration: none;
+    box-shadow: 4px 4px 0px #6fa3c5; /* 🔥 shadow */
+}
+
+/* CONTENT SPACE */
+.content {
+    margin-top: 80px;
+    padding: 40px;
+}
+
+
+
+/* MAIN BOX */
+.main-form {
+    display: flex;
+    display: grid;
+    justify-content: center;
+    padding: 150px 20px;
+    
+}
+
+.form-box {
+    width: 900px;
+    background: #bbe0e7;
+    padding: 40px;
+    border-radius: 15px;
+}
+
+/* TITLE */
+.form-title {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.form-subtitle {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #444;
+}
+
+/* ROW */
+.row {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+/* FIELD */
+.field {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    column-gap: 50px;
+}
+
+.field.full {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.field.wide {
+    flex: 2;
+}
+
+.field.small {
+    flex: 1;
+}
+
+/* INPUT */
+input, select {
+    
+    padding: 12px;
+     padding-left: 30px;
+    border-radius: 8px;
+    border: 1px solid #999;
+    margin-top: 5px;
+    height: 60px;
+    font-weight: bold;
+}
+
+/* CHECKBOX */
+.checkbox-group {
+    margin-top: 10px;
+    flex: 1;
+}
+
+.checkbox-group label {
+    display: block;
+    margin-bottom: 5px;
+    
+}
+
+/* BUTTON */
+.btn-area {
+    text-align: center;
+    margin-top: 30px;
+}
+
+button {
+    height: 60px;
+    width: 130px;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 30px;
+    background: #0b2a3a;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* button:hover {
+    background: #061a24;
+} */
+
+
+.checkbox-group label {
+    display: flex;         
+    align-items: center;    
+    gap: 10px;              
+    margin-bottom: 8px;
+    
+}
+.checkbox-group input {
+    width: 16px;
+   
+}
+.note {
+    margin-top: 5px;
+    font-size: 13px;
+}
+.footer
+{
+    
+    width: 100%;
+    height: auto;
+}
+/* FOOTER */
+.main-footer {
+    
+    background: #125785;
+    color: #fff;
+    margin-top: 30px;
+   
+}
+
+/* CONTAINER */
+.footer-container {
+    display: flex;
+    justify-content:space-evenly;
+    padding: 50px 80px;
+    gap: 80px;
+}
+
+/* LEFT */
+.footer-left img {
+    height: 40px;
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+.footer-left p 
+{
+   line-height: 1.8;
+    font-size: 14px;
+    max-width: 250px;
+    gap: 10px;
+}
+
+/* LINKS */
+.footer-links h3,
+.footer-contact h3 {
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+.footer-links a {
+    display: block;
+    text-decoration: none;
+    color: #ccc;
+    margin-bottom: 10px;
+    gap: 10px;
+}
+.other-link a{
+    display: block;
+    text-decoration: none;
+    color: #ccc;
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+
+/* CONTACT */
+.footer-contact p {
+    font-size: 20px;
+    margin-bottom: 5px;
+    line-height: 1.6;
+    
+}
+
+/* BOTTOM */
+.footer-bottom
+ {
+    display: flex;
+    text-align: center;
+   
+    color: #ccc;
+   
+    
+    font-size: 25px;
+}
+#icon
+{
+    display: flex;
+    margin-top: 15px;
+    gap: 20px;
+    color: black;
+
+}
+button:hover
+{
+    background-color: red;
+    color:  #125785;
+}
+button:active
+{
+    box-shadow: 10px 10px 0px #6fa3c;
+}
