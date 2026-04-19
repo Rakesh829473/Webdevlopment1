@@ -1,0 +1,410 @@
+:root{
+  --color-primary:#c2410c;
+  --color-primary-content:#ffffff;
+  --color-secondary:#6b7280;
+  --color-neutral:#3f3f46;
+  --color-neutral-content:#f4f4f5;
+  --color-base-100:#fff8f1;
+  --color-base-200:#f5ede5;
+  --color-base-300:#e7d9c9;
+  --color-base-content:#2d1b10;
+}
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  font-family:'Inter',sans-serif;
+  background:var(--color-base-100);
+  color:var(--color-base-content);
+}
+
+a{
+  text-decoration:none;
+}
+
+img{
+  max-width:100%;
+}
+
+.section-padding{
+  padding:80px 0;
+} 
+body{
+font-family: 'Inter', sans-serif;
+}
+
+.custom-nav{
+background:#c2410c;
+padding:15px 0;
+}
+
+.hero-section{
+min-height:85vh;
+background:
+linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)),
+url('https://dynamic-media-cdn.tripadvisor.com/media/photo-o/22/76/fb/86/general-s-table.jpg?w=900&h=500&s=1');
+background-size:cover;
+background-position:center;
+}
+
+.btn-main{
+background:#c2410c;
+color:#fff;
+}
+
+.btn-main:hover{
+background:#a63607;
+color:#fff;
+}
+
+.search-box{
+max-width:700px;
+}
+
+.search-box input{
+padding:15px;
+}
+
+.featured-section{
+background:linear-gradient(to bottom,#c2410c,#ffffff);
+}
+
+.food-card{
+border:none;
+border-radius:16px;
+overflow:hidden;
+transition:0.3s;
+box-shadow:0 10px 20px rgba(0,0,0,.08);
+}
+
+.food-card img{
+height:220px;
+object-fit:cover;
+}
+
+.food-card:hover{
+transform:translateY(-10px);
+}
+.site-footer{
+background:#3f3f46;
+color:#f4f4f5;
+}
+
+.site-footer h5{
+color:#fff;
+font-size:18px;
+margin-bottom:15px;
+}
+
+.site-footer a{
+color:#d4d4d8;
+text-decoration:none;
+transition:0.3s;
+}
+
+.site-footer a:hover{
+color:#c2410c;
+}
+
+.site-footer hr{
+border-color:rgba(255,255,255,.15);
+}
+.about-hero{
+min-height:60vh;
+background:
+linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)),
+url('https://images.unsplash.com/photo-1414235077428-338989a2e8c0');
+background-size:cover;
+background-position:center;
+}
+
+.stats-section{
+background:#3f3f46;
+color:#fff;
+}
+
+.stats-section h2{
+color:#c2410c;
+font-weight:800;
+}
+
+.mini-box{
+background:#fff;
+padding:25px;
+border-radius:15px;
+box-shadow:0 10px 20px rgba(0,0,0,.08);
+text-align:center;
+font-weight:600;
+}
+
+.value-card{
+background:#fff;
+padding:30px;
+border-radius:16px;
+box-shadow:0 10px 20px rgba(0,0,0,.08);
+height:100%;
+}
+
+.team-box{
+background:#c2410c;
+color:#fff;
+padding:30px;
+border-radius:50%;
+width:110px;
+height:110px;
+margin:auto;
+display:flex;
+align-items:center;
+justify-content:center;
+flex-direction:column;
+font-weight:700;
+}
+
+.cta-section{
+background:#3f3f46;
+}
+.order-header{
+background:#f5ede5;
+}
+
+.order-header h1{
+font-size:48px;
+}
+
+.btn-outline-secondary:hover{
+background:#c2410c;
+border-color:#c2410c;
+color:#fff;
+}
+/* Contact Page */
+.contact-page{
+height:100vh;
+background:
+linear-gradient(rgba(0,0,0,.45),rgba(0,0,0,.45)),
+url('https://images.unsplash.com/photo-1517248135467-4c7edcad34c4');
+background-size:cover;
+background-position:center;
+}
+
+/* Feedback Page */
+.feedback-page{
+height:100vh;
+background:
+linear-gradient(rgba(0,0,0,.45),rgba(0,0,0,.45)),
+url('https://images.unsplash.com/photo-1504674900247-0877df9cc836');
+background-size:cover;
+background-position:center;
+}
+
+/* Common Form Card */
+.form-card{
+background:#fff;
+padding:35px;
+border-radius:20px;
+box-shadow:0 20px 40px rgba(0,0,0,.15);
+max-height:85vh;
+overflow-y:auto;
+}
+
+.form-control,
+.form-select{
+padding:14px;
+border-radius:10px;
+}
+
+textarea{
+resize:none;
+}
+
+@media(max-width:991px){
+
+.contact-page,
+.feedback-page{
+height:auto;
+padding:60px 0;
+}
+
+}
+/* Auth Pages */
+.auth-page{
+font-family:'Inter',sans-serif;
+background:#fff8f1;
+}
+
+.auth-side{
+background:linear-gradient(135deg,#c2410c,#ea580c);
+align-items:center;
+justify-content:center;
+padding:40px;
+}
+
+.auth-content{
+max-width:420px;
+}
+
+.auth-content h1{
+font-size:52px;
+margin-bottom:15px;
+}
+
+.auth-form-wrap{
+background:#fff8f1;
+padding:30px;
+}
+
+.auth-box{
+width:100%;
+max-width:460px;
+background:#ffffff;
+padding:40px;
+border-radius:24px;
+box-shadow:0 20px 40px rgba(0,0,0,.08);
+}
+
+.auth-box .form-control{
+padding:14px;
+border-radius:12px;
+}
+
+.eye-icon{
+position:absolute;
+right:15px;
+top:50%;
+transform:translateY(-50%);
+color:#888;
+}
+
+.user-tabs{
+display:grid;
+grid-template-columns:1fr 1fr 1fr;
+gap:8px;
+background:#f5ede5;
+padding:6px;
+border-radius:14px;
+}
+
+.user-tabs span{
+text-align:center;
+padding:10px;
+border-radius:10px;
+font-weight:600;
+cursor:pointer;
+}
+
+.user-tabs .active{
+background:#c2410c;
+color:#fff;
+}
+
+@media(max-width:991px){
+.auth-box{
+padding:30px 22px;
+margin:20px 0;
+}
+}
+.policy-hero{
+padding:90px 0;
+background:linear-gradient(135deg,#3f3f46,#1f1f23);
+}
+
+.policy-box{
+max-width:850px;
+margin:auto;
+background:#fff;
+padding:40px;
+border-radius:20px;
+box-shadow:0 20px 40px rgba(0,0,0,.08);
+}
+
+.ticket-box{
+max-width:650px;
+background:#fff;
+padding:35px;
+border-radius:20px;
+box-shadow:0 20px 40px rgba(0,0,0,.08);
+}
+
+.accordion-item{
+border-radius:12px;
+overflow:hidden;
+margin-bottom:12px;
+}
+/* Numbers Section */
+.numbers-section{
+background:#f5efe8;
+}
+
+.number-card{
+background:#fff;
+padding:35px 25px;
+border-radius:14px;
+box-shadow:0 10px 25px rgba(0,0,0,.08);
+height:100%;
+}
+
+.number-card h3{
+font-size:54px;
+font-weight:800;
+color:#c2410c;
+}
+
+.number-card .pink{
+color:#d9468f;
+}
+
+/* Testimonials */
+.testimonial-section{
+background:#ffffff;
+}
+
+.test-card{
+background:#f8f3ed;
+padding:30px;
+border-radius:14px;
+box-shadow:0 10px 20px rgba(0,0,0,.08);
+height:100%;
+}
+
+.stars{
+color:#f4b400;
+font-size:26px;
+margin-bottom:15px;
+}
+
+.user-box{
+display:flex;
+align-items:center;
+gap:15px;
+margin-top:20px;
+}
+
+.avatar{
+width:50px;
+height:50px;
+border-radius:50%;
+background:#c2410c;
+color:#fff;
+display:flex;
+align-items:center;
+justify-content:center;
+font-weight:700;
+}
+
+.pink-bg{
+background:#d9468f;
+}
+
+/* Partner CTA */
+.partner-section{
+background:#c2410c;
+}
+
+.partner-section .btn{
+border-radius:10px;
+font-weight:600;
+padding:12px 28px;
+}

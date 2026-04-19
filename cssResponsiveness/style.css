@@ -72,7 +72,7 @@ div {
 @media screen and (max-width: 760px) {
   #leftPart {
     grid-template-columns: auto auto;
-    grid-template-columns: 1fr 1fr;
+    /* grid-template-columns: 1fr 1fr; */
 
   } 
 }
