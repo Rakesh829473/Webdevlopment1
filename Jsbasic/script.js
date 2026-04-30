@@ -31,3 +31,10 @@ while(j<10)
     console.log(a[j]);
     j++;
 }
+
+var r=1;
+while(r<10)
+{
+    console.log(2+ "*"+r+"="+2*r);
+    r++;
+}
