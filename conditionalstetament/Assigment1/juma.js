@@ -92,6 +92,14 @@ function testReturn() {
 }
 
 // calling function
-let result = testReturn();
-console.log(result);
+// let result = testReturn();
+// console.log(result);
+// function sum(a,b)
+// {
+//     return a+b;
+// }
+
+// let a=10;
+// let b=20;
+
 
