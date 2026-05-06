@@ -76,3 +76,10 @@ let vishal ={
 let ar2=[22,23,45,89,8,9,49,45,8,7,];
 
 console.log(ar2.filter((val) => val >20));
+
+console.log(ar2.slice(0,7));
+
+let ab="This is web-devlopment Class";
+console.log(ab.split(" "));
+console.log(ab.split("-"));
+console.log(ab.split("is"));
