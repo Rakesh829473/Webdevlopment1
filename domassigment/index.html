@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Change Heading</title>
+</head>
+<body>
+
+    <!-- Step 1: h1 with id -->
+    <h1 id="myHeading">Hello World</h1>
+
+    <!-- Button click karne par text change hoga -->
+    <button onclick="changeText()">Click Me</button>
+
+    <script>
+        function changeText() {
+            // Step 2: element ko select karo
+            let heading = document.getElementById("myHeading");
+
+            // Step 3: text change karo
+            heading.innerHTML = "hello world";
+        }
+    </script>
+
+</body>
+</html>
