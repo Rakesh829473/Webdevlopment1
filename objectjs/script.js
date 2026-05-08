@@ -83,3 +83,8 @@ let ab="This is web-devlopment Class";
 console.log(ab.split(" "));
 console.log(ab.split("-"));
 console.log(ab.split("is"));
+
+let str ="this is astring";
+console.log(str.toUpperCase);
+let c=3.14;
+console.log(c.toFixed(5));

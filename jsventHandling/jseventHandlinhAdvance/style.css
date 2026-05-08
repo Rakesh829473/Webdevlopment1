@@ -1,0 +1,33 @@
+
+#bulb1{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pBox
+{
+    
+}
+
+.box
+{
+    width: 30px;
+    height: 15px;
+    border: 1px solid black;
+}
+
+#redbox
+{
+    background-color: red;
+}
+#greenbox
+{
+    background-color: green;
+}
+#bluebox{
+    background-color: blue;
+}
