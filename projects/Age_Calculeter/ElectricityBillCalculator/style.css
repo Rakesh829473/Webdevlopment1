@@ -1,0 +1,41 @@
+body{
+    background: #f4f7fc;
+    font-family: Arial, sans-serif;
+}
+
+.bill-card{
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.card-header h2{
+    margin: 0;
+    font-weight: bold;
+}
+
+.form-control{
+    height: 50px;
+    border-radius: 10px;
+}
+
+.btn-custom{
+    border-radius: 10px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn-custom:hover{
+    transform: scale(1.03);
+}
+
+#resultCard{
+    border-radius: 12px;
+}
+
+#resultCard p{
+    font-size: 17px;
+}
+
+#grandTotal{
+    font-weight: bold;
+}
