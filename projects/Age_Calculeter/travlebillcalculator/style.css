@@ -1,0 +1,38 @@
+body{
+    background: #f5f7fb;
+    font-family: Arial, sans-serif;
+}
+
+.travel-card{
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.form-control{
+    height: 50px;
+    border-radius: 10px;
+}
+
+.btn-custom{
+    height: 50px;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn-custom:hover{
+    transform: scale(1.03);
+}
+
+#resultCard{
+    border-radius: 12px;
+}
+
+#resultCard p{
+    font-size: 17px;
+    margin-bottom: 12px;
+}
+
+#totalBill{
+    font-weight: bold;
+}
