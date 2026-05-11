@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Salary Calculator</title>
+
+    <!-- Bootstrap CSS -->
+    <link 
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" 
+        rel="stylesheet"
+    >
+
+    <!-- CSS File -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-light">
+
+    <div class="container py-5">
+
+        <div class="row justify-content-center">
+
+            <div class="col-md-5">
+
+                <!-- Main Card -->
+                <div class="card shadow-lg border-0 rounded-4">
+
+                    <!-- Header -->
+                    <div class="card-header bg-primary text-white text-center py-3">
+                        <h2>Salary Calculator</h2>
+                    </div>
+
+                    <!-- Body -->
+                    <div class="card-body p-4">
+
+                        <!-- Input -->
+                        <div class="mb-3">
+
+                            <label class="form-label fw-bold">
+                                Basic Salary
+                            </label>
+
+                            <input 
+                                type="number"
+                                id="basicSalary"
+                                class="form-control"
+                                placeholder="Enter Basic Salary"
+                            >
+
+                            <!-- Error -->
+                            <small 
+                                id="error"
+                                class="text-danger d-none"
+                            >
+                                Please enter a valid salary
+                            </small>
+
+                        </div>
+
+                        <!-- Buttons -->
+                        <div class="d-flex gap-3">
+
+                            <button 
+                                id="calculateBtn"
+                                class="btn btn-success w-100"
+                                onclick="startCalculation()"
+                            >
+
+                                <span id="btnText">
+                                    Calculate Gross Salary
+                                </span>
+
+                                <!-- Spinner -->
+                                <span 
+                                    id="spinner"
+                                    class="spinner-border spinner-border-sm d-none"
+                                ></span>
+
+                            </button>
+
+                            <button 
+                                class="btn btn-danger w-100"
+                                onclick="resetForm()"
+                            >
+                                Reset
+                            </button>
+
+                        </div>
+
+                        <!-- Success Message -->
+                        <div 
+                            id="successMessage"
+                            class="alert alert-success mt-3 d-none"
+                        >
+                            Salary calculated successfully!
+                        </div>
+
+                        <!-- Result Card -->
+                        <div 
+                            id="resultCard"
+                            class="card mt-4 shadow-sm d-none"
+                        >
+
+                            <div class="card-header bg-dark text-white">
+                                Salary Details
+                            </div>
+
+                            <div class="card-body">
+
+                                <p id="basicResult"></p>
+
+                                <p id="hraResult"></p>
+
+                                <p id="daResult"></p>
+
+                                <hr>
+
+                                <h4 
+                                    class="text-success fw-bold"
+                                    id="grossResult"
+                                ></h4>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- JavaScript File -->
+    <script src="script.js"></script>
+
+</body>
+</html>

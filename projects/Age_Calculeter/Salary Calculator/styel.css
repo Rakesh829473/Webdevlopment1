@@ -1,0 +1,48 @@
+body{
+    background: #f4f7fc;
+    font-family: Arial, sans-serif;
+}
+
+.card{
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.card-header h2{
+    margin: 0;
+    font-weight: bold;
+}
+
+.form-control{
+    height: 50px;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.btn{
+    height: 50px;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn:hover{
+    transform: scale(1.03);
+}
+
+#resultCard{
+    border-radius: 12px;
+}
+
+#resultCard p{
+    font-size: 17px;
+    margin-bottom: 12px;
+}
+
+#grossResult{
+    font-weight: bold;
+}
+
+.spinner-border{
+    margin-left: 8px;
+}
