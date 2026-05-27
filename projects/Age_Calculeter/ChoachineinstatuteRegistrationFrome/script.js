@@ -311,6 +311,7 @@ function validateForm(data) {
     isValid = false;
 
   }
+  
 
   return isValid;
 
